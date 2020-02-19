@@ -75,6 +75,7 @@ const resolvers = {
                         );
                 }
         },
+
         Date: new GraphQLScalarType({
                 name: 'Date',
                 description: "It's a date",
