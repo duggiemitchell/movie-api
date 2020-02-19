@@ -61,6 +61,7 @@ const movies = [
 // context - a way to set user info for auth, etc
 // info - contains info on the request ?
 // when using a database, these can be find commands
+
 const resolvers = {
         Query: {
                 movies: () => movies,
@@ -75,10 +76,6 @@ const resolvers = {
                         );
                 }
         },
-        // Actor: (obj, arg, context) => {
-        //         console.log('obj', obj);
-        //         return { id: 'oseifjoi', name: 'uehfcsfh' };
-        // },
         Date: new GraphQLScalarType({
                 name: 'Date',
                 description: "It's a date",
