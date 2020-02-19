@@ -61,7 +61,6 @@ const movies = [
 // context - a way to set user info for auth, etc
 // info - contains info on the request ?
 // when using a database, these can be find commands
-
 const resolvers = {
         Query: {
                 movies: () => movies,
